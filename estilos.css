@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+}
+a, a:active,a:hover{
+    text-decoration:none;
+    color: #555555;
+}
+
+html, body {
+    box-sizing: border-box;
+}
+ /*====================== HEADER ==================================*/
+.cl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    max-width: 100%;
+    background-image:linear-gradient(-160deg,#690B0B,#121212,#121212,#121212,#121212);
+}
+.header_logo-img {
+    width: 266px;
+    max-width: 50%;
+    border-radius: 7px;
+    /* display: none; */
+    
+}
+
+
+.header_logo_div {
+     margin-left: 12%;  
+    }
+
+    div .header__titulo {
+    max-width: 666px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 30px;
+     line-height: 48px;
+     color: #fff;
+     font-weight: 500;
+     margin-top: 20px;
+     
+    }
+
+   div .header_titulo-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #b7b7b7;
+    margin-top: 15px;
+    }
+
+    input {
+    font-family: 'Poppins', sans-serif;
+     width: 407px;
+    height: 42px;
+    background-color: #252525;
+    /* border: 1px solid #ccc; */
+    padding: 10px 20px;
+    margin-top: 15px;
+    /* opacity: 16%; */
+    border-radius: 7px;
+    font-size: 17px;
+    color:#fff
+    
+    }
+
+   input::placeholder {
+        color: #fff;
+    }
+
+    button {
+       font-family: 'Poppins', sans-serif;
+       margin-top: 15px;
+       display: block;
+       background-color: #D50C0C;
+       padding: 10px 20px;
+       /* border: 1px solid #ccc; */
+       border-radius: 7px;
+        width: 450px;
+       height: 62px;
+       color: white;
+       font-size: 17px;
+       font-weight: 700;
+       /* max-width: 660px; */
+}
+button:hover {
+    cursor:pointer;
+}
+/*=============================== Section Icons ============================================-->*/
+.icons__center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 13.75em;
+    align-items: center;
+    /* width: 1090px; */
+    max-width: 80%;
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 18px;
+    padding: 5px 30px;
+}
+
+.icons_container {
+    height: 243px;
+    padding: 20px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(57, 57, 57);
+
+    
+    
+}
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 188px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+.conta2 {
+    width: 188px;
+    height: 142px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+   
+    /* margin-left: 10px; */
+}
+.icons-img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+#img-not {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+
+/*    <!--======================================= Tiago Tessmann ================================-->
+*/
+.cl-2 {
+    height: 650px;
+    max-width: 100%;
+    background-image:linear-gradient(-50deg,#690B0B,#121212,#121212,#121212,#121212);
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+} 
+
+  .img-tiago {
+      max-width: 412px;
+     
+      
+  }
+  .img-tiag{
+      max-width: 100%;
+      border-radius: 10px;
+      
+  }
+ 
+  .descricao-tiago_tessmann {
+        color: #b7b7b7;
+        font-family:'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 505px;
+  }
+  .div-texto {
+      max-width: 40vw;
+      
+  }
+
+ .div-texto .titulo-tiago {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 50px;
+
+  }
+  .seta-tiago-img {
+      margin-bottom: 35px;
+       max-width: 90%;
+  }
+  .img-tiag {
+      max-width: 340px;
+  }
+  
+  /* ====================================== fOOTER ==================================================*/
+
+  footer {
+      height:150px;
+      background-color: #000000;
+      /* padding-top: 50px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .p_foote {
+   /* display:block; */
+   /* margin-top: 50px; */
+  }
+  .p2_footer {
+    color: #555555;
+    margin-top: 15px;
+    max-width: 460px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+
+     
+  }
+ footer  .container__footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.consideracoes {
+    max-width: 460px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    word-spacing: 20px;
+ 
+}
+
+/* ==================================================================================           =*/
+
+@media (max-width: 1389px){
+    .img-t1 {
+        display: none;
+    }
+
+    .header_logo_div {
+        margin-top: 10%;
+        margin: 0 auto;
+    }
+   .sm-1 {
+        display: none;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 94%;
+    }
+}
+
+@media (max-width:1101px){
+    .icons__center{
+        height: 400px;
+    }
+    .icons_container {
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 970px){
+    .cl-2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-tiag{
+       margin: 0;
+       max-width: 15rem ;
+       margin-bottom: 5%; 
+       margin-right: 0;
+       
+       
+   }
+    
+    .div-texto{
+        
+        max-width: 100vh;
+    }
+    .descricao-tiago_tessmann{
+        color: #b7b7b7;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 80vw;
+        
+    }
+
+}
+
+@media (max-width:578px){
+    .div-texto .titulo-tiago {
+        text-align: center;
+
+
+}
+div .header_titulo-2 {
+    text-align: center;
+    
+}
+.descricao-tiago_tessmann{
+    font-size: 14px;
+    line-height: 25px;
+    margin: auto;
+}
+.conta2{
+    max-width: 20vw;
+}
+div .header__titulo {
+ max-width: 80%;
+   font-size: 1.1rem; 
+   line-height: 28px;
+   margin: auto;
+   line-height: 28px;
+}
+
+
+}
+
+@media (max-width: 428px){
+    .div-texto .titulo-tiago{
+        font-size: 30px;
+    text-align: center;
+    } 
+    .conta2{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:607px){
+    input{
+        max-width: 100%;
+        width: 90%;
+    }
+}
+
+
+@media (max-width:328px){
+    .div-texto .titulo-tiago{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:709px){
+    div .header__titulo{
+        margin: auto;
+    }
+    .header_logo-img{
+        display: block;
+        margin: 15px auto;
+        
+    }
+}
+
+@media (max-width:282px){
+    .img-tiag{
+        /* display: none; */
+        
+        margin:;
+       
+    }
+    .img-tiago{
+        margin-top: 2px;    
+    }
+    .descricao-tiago_tessmann{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:400px){
+    .img-s{
+        display: none;
+
+
+    }
+}
+
+@media (max-width:467px){
+    input{
+        max-width: 100%;
+        width: 80%;
+    }
+   
+}
+
+@media (max-width:289px){
+    .titulo{
+        margin-top: 5px;
+    }
+    .icons-img{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:399px){
+    .icons__center{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        /* height: 13.75em; */
+        /* align-items: revert; */
+        /* width: 1090px; */
+        /* max-width: 80%; */
+        border: 1px solid rgb(57, 57, 57);
+        border-radius: 18px;
+        padding: 5px 30px;
+        display: block;
+    }
+   
+
+    .cl-2{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:207px){
+    button{
+        padding: 5px;
+    }
+    .header_titulo-2{
+        line-height: 10px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:174px){
+    .descricao-tiago_tessmann{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    
+}
+
+
+@media (max-width:279px) {
+    .icons__center{
+        display: flex;
+    }
+}
+
+
+@media(max-width:150px){
+    .div .header__titulo{
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+}
